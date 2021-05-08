@@ -1,0 +1,36 @@
+call myEnvironments/py3Env/Scripts/activate : activates the virtual environment
+
+
+
+pip list : shows the versions of the frameworks installed on this virtual environment
+
+
+
+deactivate : deactivates the virtual environment
+
+
+
+pip3 list : shows the versions of the frameworks installed with out a virtual environment
+
+
+
+
+pip install Django==2.2.4 : installs a framework
+
+
+
+
+pip freeze : prints it less ordered 
+
+
+
+
+
+pip freeze > requirements.txt : creates a text file 
+
+
+
+pip uninstall: Django un installs the framework
+
+
+pip show Django: 
